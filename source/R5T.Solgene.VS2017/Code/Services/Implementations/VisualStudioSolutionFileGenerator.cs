@@ -7,9 +7,17 @@ namespace R5T.Solgene.VS2017
 {
     public class VisualStudioSolutionFileGenerator : IVisualStudioSolutionFileGenerator
     {
-        public SolutionFile GenerateSolutionFile()
+        private IVisualStudio2017SolutionFileGenerator VisualStudio2017SolutionFileGenerator { get; }
+
+
+        public VisualStudioSolutionFileGenerator(IVisualStudio2017SolutionFileGenerator visualStudio2017SolutionFileGenerator)
         {
-            var solutionFile = SolutionFileGenerator.NewVisualStudio2017();
+            this.VisualStudio2017SolutionFileGenerator = visualStudio2017SolutionFileGenerator;
+        }
+
+        public SolutionFile GenerateVisualStudioSolutionFile()
+        {
+            var solutionFile = this.VisualStudio2017SolutionFileGenerator.GenerateVisualStudio2017SolutionFile();
             return solutionFile;
         }
     }
