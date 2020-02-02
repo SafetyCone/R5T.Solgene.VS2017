@@ -1,4 +1,8 @@
 R5T.Solgene.VS2017 - A VS2017-based IVisualStudioSolutionFileGenerator service implementation for the Solgene project.
 
-Goals
+Following the design principle that generic service implementations depend on specific service dependencies, the VisualStudioSolutionFileGenerator implementation depends on the IVisualStudio2017SolutionFileGenerator service.
 
+
+# Goals
+
+Create a VS2017-specific implementation of the IVisualStudioSolutionFileGenerator service.
