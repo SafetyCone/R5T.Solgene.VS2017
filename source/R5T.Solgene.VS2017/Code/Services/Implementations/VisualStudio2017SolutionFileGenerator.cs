@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 
-using R5T.Cambridge.Types;
+using R5T.Cambridge.Types;using R5T.T0064;
 
 
 namespace R5T.Solgene.VS2017
-{
-    public class VisualStudio2017SolutionFileGenerator : IVisualStudio2017SolutionFileGenerator
+{[ServiceImplementationMarker]
+    public class VisualStudio2017SolutionFileGenerator : IVisualStudio2017SolutionFileGenerator,IServiceImplementation
     {
         public SolutionFile GenerateVisualStudio2017SolutionFile()
         {

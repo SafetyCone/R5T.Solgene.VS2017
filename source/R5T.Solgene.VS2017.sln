@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Solgene.Base", "..\..\R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Cambridge.Types", "..\..\R5T.Cambridge.Types\source\R5T.Cambridge.Types\R5T.Cambridge.Types.csproj", "{C270ABC1-E29A-4029-97CA-C45CEE1C27F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{F14DDC09-1050-4B0E-8196-753BA1F30413}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,18 @@ Global
 		{C270ABC1-E29A-4029-97CA-C45CEE1C27F9}.Release|x64.Build.0 = Release|Any CPU
 		{C270ABC1-E29A-4029-97CA-C45CEE1C27F9}.Release|x86.ActiveCfg = Release|Any CPU
 		{C270ABC1-E29A-4029-97CA-C45CEE1C27F9}.Release|x86.Build.0 = Release|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Debug|x64.Build.0 = Debug|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Debug|x86.Build.0 = Debug|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Release|x64.ActiveCfg = Release|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Release|x64.Build.0 = Release|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Release|x86.ActiveCfg = Release|Any CPU
+		{F14DDC09-1050-4B0E-8196-753BA1F30413}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +106,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BA71F299-B939-448F-8D0B-EA312B1D1839} = {ACF45D4F-2A3B-448E-A5C1-6F9512FA9CDB}
 		{C270ABC1-E29A-4029-97CA-C45CEE1C27F9} = {ACF45D4F-2A3B-448E-A5C1-6F9512FA9CDB}
+		{F14DDC09-1050-4B0E-8196-753BA1F30413} = {ACF45D4F-2A3B-448E-A5C1-6F9512FA9CDB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B8D5014-85E5-4A63-9B01-A99712DF14DD}
